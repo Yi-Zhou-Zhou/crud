@@ -21,22 +21,21 @@ const [openedSignIn, setOpenedSignIn] = useState(false);
         onClose={() => setOpenedSignUp(false)}
         transition="fade"
         transitionDuration={400}
-        transitionTimingFunction="ease"
         position='center'
         title='Register Form'
       >
         <ModalContainer>
             <InputContainer>
                 <InputField type='email' name='email' placeholder='' id='email'required/>
-                <InputLabel for='email'>Enter Email</InputLabel>
+                <InputLabel htmlFor='email'>Enter Email</InputLabel>
             </InputContainer>
             <InputContainer>
                 <InputField type='password' name='email' placeholder='' id='password' required/>
-                <InputLabel for='password'>Enter Password</InputLabel>
+                <InputLabel htmlFor='password'>Enter Password</InputLabel>
             </InputContainer>
             <InputContainer>
                 <InputField type='password' name='email' placeholder='' id='confirmPassword' required/>
-                <InputLabel for='confirmPassword'>Confirm Password</InputLabel>
+                <InputLabel htmlFor='confirmPassword'>Confirm Password</InputLabel>
             </InputContainer>
             <ButtonContainer>
           <FooterRedirect>
@@ -63,18 +62,17 @@ const [openedSignIn, setOpenedSignIn] = useState(false);
         onClose={() => setOpenedSignIn(false)}
         transition="fade"
         transitionDuration={400}
-        transitionTimingFunction="ease"
         position='center'
         title='Login Form'
       >
         <ModalContainer>
         <InputContainer>
         <InputField type='email' name='email' placeholder='' id='email'required/>
-        <InputLabel for='email'>Enter Email</InputLabel>
+        <InputLabel htmlFor='email'>Enter Email</InputLabel>
         </InputContainer>
         <InputContainer>
         <InputField type='password' name='email' placeholder='' id='password' required/>
-        <InputLabel for='password'>Enter Password</InputLabel>
+        <InputLabel htmlFor='password'>Enter Password</InputLabel>
         </InputContainer>
         <ButtonContainer>
           <FooterRedirect>
