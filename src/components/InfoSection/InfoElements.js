@@ -24,7 +24,7 @@ export const InfoWrapper = styled.div`
 `
 
 
-export const Column1 = styled.div`
+export const Column1 = styled.div`  
     margin-bottom: 0.5em;
     padding: 0 1em;
     grid-area: col1;
